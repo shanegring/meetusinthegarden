@@ -3,7 +3,7 @@
 /* General */
 
 body {
-  background-color: #F4F5F7;
+  background-color: #fff;
   padding-bottom: 5%;
   max-width: 1600px;
   margin: 0 auto;
@@ -95,14 +95,15 @@ box-shadow: 0 0 0 2px rgba(73,161,184,.25)
 }
 
 .btn-primary {
-  background-color: #49A1B8;
-  border-color: #49A1B8;
+  background-color: #CA9984;
+  border-color: #CA9984;
+  color: #fff;
 }
 
 .btn-primary:hover {
    color: #fff;
-   background-color: #49A1B8;
-   border-color: #49A1B8;
+   background-color: #CA9984;
+   border-color: #CA9984;
    opacity: .8;
 }
 
