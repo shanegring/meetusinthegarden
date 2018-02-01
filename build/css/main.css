@@ -9837,6 +9837,11 @@ nav {
   padding-top: 1rem;
 }
 
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
 /*FOOTER*/
 .function-foot {
   background: #38138E;
@@ -9878,6 +9883,13 @@ label {
   background: #FFFAF0;
   border: 2px solid #38138E;
   color: #38138E;
+}
+
+.card-block {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
 }
 
 .badge-default {

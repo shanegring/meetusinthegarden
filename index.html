@@ -29,14 +29,14 @@
   <body>
 
 
-<nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-right pr-4">
+<nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-right p-4">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="navbar-collapse collapse" id="collapsingNavbar3">
         <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
             <li class="nav-item">
-                <a class="nav-link" href="#scedule">Schedule of Events</a>
+                <a class="nav-link" href="#schedule">Schedule of Events</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#places">Places to Stay</a>
@@ -44,8 +44,8 @@
             <li class="nav-item">
                 <a class="nav-link" href="#registery">For a Life Together</a>
             </li>
-            <li class="nav-item">
-                <a class="btn nav-link disabled" href="rsvp" style="background-color: #CA9984; color: #fff">RSVP</a>
+            <li class="nav-item mr-2">
+                <a class="btn nav-link" href="#rsvp" style="background-color: #CA9984; color: #fff">RSVP</a>
             </li>
         </ul>
     </div>
@@ -55,14 +55,14 @@
 
 <style>
 
-.image-1 {
-  width: 80%;
+.a-spot img {
+  width: 100%;
 }
 
 
 
 @media (min-width: 800px) {
-  .image-1 {
+  .a-spot img {
   width: 60%; 
 }
 
@@ -74,7 +74,7 @@
       <div class="row">
         <div class="container-fluid mt-4 mb-4">  
 
-          <div style="text-align: center">
+          <div class="a-spot" style="text-align: center">
           <img class="image-1" src="img/a-spot.png"">
           </div>
 
@@ -85,14 +85,23 @@
 
 <style>
 
-.image-2 {
+.b-spot-back img {
   width: 60%; 
   position: absolute; 
   top: 0; 
 }
 
+@media (min-width: 800px) {
+  .b-spot-back img {
+  width: 45%; 
+  left: 15%;
+}
+}
 
-.image-3 {
+
+
+
+.b-spot-front img {
   width: 80%;
   margin-top: 20%;
 }
@@ -100,13 +109,8 @@
 
 
 @media (min-width: 800px) {
-  .image-2 {
-  width: 45%; 
-  left: 15%;
-}
 
-
-.image-3 {
+.b-spot-front img {
   width: 50%;
   
 }
@@ -122,62 +126,54 @@
     padding: 1.25rem;
 }
 
+.section {
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
 
 </style>
 
-      <div class="row" style="margin-top: 15%; margin-bottom: 15%">
-        <div class="container-fluid mt-4 mb-4" style="position: relative; top: 0; left: 0;">  
+<div id="schedule" class="row" style="margin-top: 15%; margin-bottom: 15%">
+  <div class="container-fluid mt-4 mb-4" style="position: relative; top: 0; left: 0;">  
 
-          <span>
-          <img class="image-2" src="img/flower-1.png">
-        </span>
+    <span class="b-spot-back">
+      <img class="image-2" src="img/flower-1.png">
+    </span>
 
-          <div style="text-align: center; position: relative;">
-          <img class="image-3" src="img/invite.png">
-          </div>
+    <div class="b-spot-front" style="text-align: center; position: relative;">
+      <img class="image-3" src="img/invite.png">
+    </div>
 
-      </div>
-      </div>
+  </div>
+</div>
     
     
     
 
 
 
-<div id="places" class="row pt-4 pb-4" style="background-color: #FAFAFA; padding-bottom: 10%; min-height: 600px">
+<div id="places" class="row section" style="background-color: #FAFAFA;"">
   <div class="container-fluid mt-4">
-    <div class="col-md-10 offset-md-1 col-10 col-1" style="padding-top: 30px; margin: 0 auto">  
+    <div class="col-md-10 offset-md-1 col-10 offset-1">  
 
     <h1 class="text-center pb-4">Places to Stay</h1>
 
-      <div class="col-md-4 offset-md-4">
+    <h4 class="text-center pb-4">Be sure to name drop "Roeshot-Gring Wedding" for a discount. </h4>
+
+    <div class="col-md-4 offset-md-4">
     <hr />
-  </div>
+    </div>
 
-    <h4 class="text-center">Be sure to name drop "Roeshot-Gring Wedding" for a discount. </h4>
-
-
-    <div class="card-deck pt-4 pb-4">
+    <div class="card-deck pt-4 pb-4" style="margin: 0 auto">
       
-      <div class="card shadow mb-4">
-        <a href="https://www.acehotel.com/pittsburgh">
-        <img class="card-img-top" src="img/ace.png" alt="Card image">
-        </a>
-        <div class="card-block">
-          <h5 class="text-muted"><small>PLACE TO STAY</small></h5>
-          <h4 class="card-title">Ace Hotel</h4>
-          <h6 class="card-text">123 N Highland Ave.</h6>
-          <h6 class="card-text">Pittsburgh, PA 15206</h6>
-          <span class="badge" style="background-color: #CA9984">Trendy</span>
-          <span class="badge badge-default">Pricey</span>
-          <span class="badge badge-default">Cool Kids</span>
-        </div>
-        
-      </div>
     
-
-    
-      <div class="card shadow mb-4">
+      <div class="card shadow mb-4" style="min-width: 17rem">
         <a href="https://www.ihg.com/hotelindigo/hotels/us/en/pittsburgh/pithb/hoteldetail">
         <img class="card-img-top" src="img/indigo.png" alt="Card image cap">
         </a>
@@ -187,12 +183,12 @@
           <h6 class="card-text">123 N Highland Ave.</h6>
           <h6 class="card-text">Pittsburgh, PA 15206</h6>
           <span class="badge" style="background-color: #CA9984">Solid</span>
-          <span class="badge badge-default">Classic</span>
+          <span class="badge" style="background-color: #C9C9C9">Classic</span>
         </div>
       </div>
    
 
-      <div class="card shadow mb-4">
+      <div class="card shadow mb-4" style="min-width: 17rem">
         <a href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Roeshot-Gring%20Wedding%5Epitok%60RGWRGWA%7CRGWRGWB%60139.00-149.00%60USD%60false%604%607/13/18%607/15/18%606/13/18&app=resvlink&stop_mobi=yes">
         <img class="card-img-top" src="img/courtyard.png" alt="Card image cap">
         </a>
@@ -202,9 +198,24 @@
           <h6 class="card-text">5308 Liberty Ave</h6>
           <h6 class="card-text">Pittsburgh, PA 15224</h6>
           <span class="badge" style="background-color: #CA9984">Cozy</span>
-          <span class="badge badge-default">Affordable</span>
+          <span class="badge" style="background-color: #C9C9C9">Family Friendly</span>
         </div>
       </div>
+
+       <div class="card shadow mb-4" style="min-width: 17rem">
+        <a href="https://www.acehotel.com/pittsburgh">
+        <img class="card-img-top" src="img/ace.png" alt="Card image">
+        </a>
+          <div class="card-block">
+            <h5 class="text-muted"><small>PLACE TO STAY</small></h5>
+            <h4 class="card-title">Ace Hotel</h4>
+            <h6 class="card-text">123 N Highland Ave.</h6>
+            <h6 class="card-text">Pittsburgh, PA 15206</h6>
+            <span class="badge" style="background-color: #CA9984">Trendy</span>
+            <span class="badge" style="background-color: #C9C9C9">Cool Kids</span>
+          </div> 
+      </div>
+      
     </div>
   </div>
 
@@ -213,61 +224,56 @@
 </div>
 
 
-<div id="registery" class="row pt-4 pb-4" style="padding-top:10%; padding-bottom: 10%; min-height: 600px">
+<div id="registery" class="row section">
   <div class="container-fluid mt-4 ">
-    <div class="col-md-10 offset-md-1" style="padding-top: 50px">  
-
-    <h1 class="text-center pb-4">For a life together</h1>
+    <div class="col-md-10 offset-md-1">  
+      <h1 class="text-center pb-4">For a life together</h1>
+      <h4 class="text-center pb-4">A few ideas to fill up our house and start a home as a couple.</h4>
 
       <div class="col-md-4 offset-md-4">
-    <hr />
-  </div>
-
-    <h4 class="text-center">A few ideas to fill up our house and start a home as a couple.</h4>
-
+        <hr />
+      </div>
 
       <div class="row">
-      <div class="col-md-4 col-xs-12">
-        <a href="https://www.williams-sonoma.com/registry/xthm6z7tv2/registry-list.html">
-        <img class="card-img-top" src="img/anthro.png" alt="Card image">
-        </a>
-        
-      </div>
+        <div class="col-md-4 col-xs-12">
+          <a href="https://www.williams-sonoma.com/registry/xthm6z7tv2/registry-list.html">
+          <img class="card-img-top" src="img/anthro.png" alt="Card image">
+          </a>  
+        </div>
     
 
     
-      <div class="col-md-4 col-xs-12">
-        <a href="https://www.anthropologie.com/registry/listing?registryId=MTK0NGU3OWM5">
-        <img class="card-img-top" src="img/williams.png" alt="Card image cap">
-        </a>
-      </div>
+        <div class="col-md-4 col-xs-12">
+          <a href="https://www.anthropologie.com/registry/listing?registryId=MTK0NGU3OWM5">
+          <img class="card-img-top" src="img/williams.png" alt="Card image cap">
+          </a>
+        </div>
    
 
-      <div class="col-md-4 col-xs-12">
-        <a href="#">
-        <img class="card-img-top" src="img/coming.png" alt="Card image cap">
-        </a>
+        <div class="col-md-4 col-xs-12">
+          <a href="#">
+          <img class="card-img-top" src="img/coming.png" alt="Card image cap">
+          </a>
+        </div>
       </div>
-    </div>
 
     </div>
   </div>
+</div>
 
-  </div>
 
-  <div id="rsvp" class="row pt-4 pb-4" style="background-color: #CA9984; padding-top:20%; padding-bottom: 20%; min-height: 600px">
+
+<div id="rsvp" class="row section" style="background-color: #CA9984;">
   <div class="container-fluid mt-4">
     <div class="col-md-10 offset-md-1"> 
 
-      <h1 class="text-center pb-4" style="color: #fff; padding-top: 50px">Répondez s'il vous plaît</h1>
+      <h1 class="text-center pt-4 pb-4" style="color: #fff">Répondez s'il vous plaît</h1>
 
-  <div class="col-md-4 offset-md-4">
-    <hr style="color: #fff" />
-  </div>
-
+      <div class="col-md-4 offset-md-4">
+        <hr />
+      </div>
 
       <h1 class="text-center pt-4 pb-4">Coming soon</h1>
-
 
     </div>
   </div>
