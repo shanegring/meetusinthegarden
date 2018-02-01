@@ -1,0 +1,39 @@
+nav {
+	background: #38138E; 
+	text-align: center;
+	font-family: "museo-sans",sans-serif;
+	font-size: 1.2em;
+	letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color:#fff;
+}
+
+.nav-link.active {
+	color: #6AB7E1;
+}
+
+/*nav menu button*/
+
+.navbar-toggler {
+	border: none;
+	background-color: none;
+}
+
+.navbar-toggler-icon span {
+	background-color: white;
+}
+
+
+.navbar-nav li {
+	padding-right: 1em;
+}
+
+
+.nav-tabs .nav-link {
+    border: 0px solid transparent;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    padding-top: 1rem;
+}
