@@ -62,37 +62,77 @@
 
 <style>
 
-.a-spot img {
-  width: 100%;
-}
-
-
-
-@media (min-width: 800px) {
-  .a-spot img {
-  width: 60%; 
-}
-}
-
 
 .shadow {
 background: #FFFFFF;
 box-shadow: 0 8px 32px 0 rgba(207,207,207,0.50);
 }
+
+
+.b-spot-back img {
+  width: 60%; 
+  position: absolute; 
+  top: 0; 
+}
+
+@media (min-width: 800px) {
+  .b-spot-back img {
+  width: 45%; 
+  left: 15%;
+}
+}
+
+
+
+
+
+
+.b-spot-front img {
+  width: 95%;
+}
+
+
+
+@media (min-width: 800px) {
+
+.b-spot-front img {
+  width: 55%;
+  
+}
+}
+
 </style>
 
 
-<div class="col-sm-10 offset-sm-1 col-10 offset-1">
-      <div class="row">
-        <div class="container-fluid mt-4 mb-4">  
 
-          <div class="a-spot" style="text-align: center">
-          <img class="image-1" src="img/men/order-new.png"">
-          </div>
 
-      </div>
-      </div>
+
+
+
+<div id="schedule" class="row" style="margin-top: 5%; margin-bottom: 5%">
+  <div class="container-fluid mt-4 mb-4" style="position: relative; top: 0; left: 0;">  
+
+
+
+    <div class="b-spot-front" style="text-align: center; position: relative;">
+
+    	<h1>Schedule</h1>
+    
+      <img class="image-3 mt-3" src="img/schedule/schedule-1.png">
+
+      <h4 class="center mt-3"><a style="color: #B1605A" href="rehersal.html">See the schedule for the rehersal dinner →</a></h4>
+
+      <img class="image-3 mt-3" src="img/schedule/schedule-2.png">
+
+      <img class="image-3 mt-3" src="img/schedule/schedule-3.png">
+
+
+
     </div>
+
+  </div>
+</div>
+
 
 
 
